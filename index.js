@@ -3,6 +3,7 @@ const hbs = require('express-handlebars');
 const app = express();
 const fs = require('fs');
 const download = require('download');
+const fs = require('fs');
 
 //para definir la carpeta publica
 app.use(express.static('public'));
